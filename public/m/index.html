@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的乐淘</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./lib/mui/css/mui.min.css">
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet/less" href="./less/index.less">
+    <script src="./lib/less/less.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="header">
+        <h2>乐淘云购</h2>
+        <a class="fa fa-search" aria-hidden="true"></a>
+    </div>
+    <div class="box"></div>
+    <!-- 轮播图 -->
+    <section class="banner">
+        <div class="mui-slider">
+            <div class="mui-slider-group mui-slider-loop">
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="./images/banner4.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="./images/banner1.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="./images/banner2.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="./images/banner3.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="./images/banner4.png" />
+                    </a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#">
+                        <img src="./images/banner1.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="mui-slider-indicator">
+                <div class="mui-indicator mui-active"></div>
+                <div class="mui-indicator"></div>
+                <div class="mui-indicator"></div>
+                <div class="mui-indicator"></div>
+            </div>
+        </div>
+
+    </section>
+    <!-- nav导航 -->
+    <section class="nav">
+        <div class="mui-content">
+            <div class="mui-row">
+                <div class="mui-col-xs-4">
+                    <img src="./images/nav1.png" alt="">
+                </div>
+                <div class="mui-col-xs-4">
+                    <img src="./images/nav2.png" alt="">
+                </div>
+                <div class="mui-col-xs-4">
+                    <img src="./images/nav3.png" alt="">
+                </div>
+                <div class="mui-col-xs-4">
+                    <img src="./images/nav4.png" alt="">
+                </div>
+                <div class="mui-col-xs-4">
+                    <img src="./images/nav5.png" alt="">
+                </div>
+                <div class="mui-col-xs-4">
+                    <img src="./images/nav6.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- nav导航2 -->
+    <section class="nav2">
+        <div class="mui-content">
+            <div class="mui-row">
+                <div class="mui-col-xs-8">
+                    <div class="mui-row">
+                        <div class="mui-col-xs-6">
+                            <img src="./images/active1.png" alt="">
+                        </div>
+                        <div class="mui-col-xs-6">
+                            <img src="./images/active2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mui-row">
+                        <div class="mui-col-xs-6">
+                            <img src="./images/active4.png" alt="">
+                        </div>
+                        <div class="mui-col-xs-6">
+                            <img src="./images/active5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mui-col-xs-4">
+                    <img src="./images/active3.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- 品牌专区 -->
+    <section class="title0">
+        <img src="./images/title0.png" alt="">
+    </section>
+    <!-- 品牌 -->
+    <section class="titlelogo1">
+        <div class="mui-content">
+            <div class="mui-row">
+                <div class="mui-col-xs-3">
+                    <img src="./images/brand1.png" alt="">
+                </div>
+                <div class="mui-col-xs-3">
+                    <img src="./images/brand2.png" alt="">
+                </div>
+                <div class="mui-col-xs-3">
+                    <img src="./images/brand3.png" alt="">
+                </div>
+                <div class="mui-col-xs-3">
+                    <img src="./images/brand4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 品牌2 -->
+    <section class="titlelogo2">
+            <div class="mui-content">
+                <div class="mui-row">
+                    <div class="mui-col-xs-3">
+                        <img src="./images/brand5.png" alt="">
+                    </div>
+                    <div class="mui-col-xs-3">
+                        <img src="./images/brand6.png" alt="">
+                    </div>
+                    <div class="mui-col-xs-3">
+                        <img src="./images/brand7.png" alt="">
+                    </div>
+                    <div class="mui-col-xs-3">
+                        <img src="./images/brand8.png" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- 运动专区 -->
+    <section class="title1">
+        <img src="./images/title1.png" alt="">
+    </section>
+
+
+
+    <script src="./lib/artTemplate/template.js"></script>
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <script src="./lib/mui/js/mui.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        var gallery = mui('.mui-slider');
+        gallery.slider({
+            interval: 1000
+        });
+
+    </script>
+</body>
+
+</html>
