@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>搜索页</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./lib/mui/css/mui.min.css">
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet/less" href="./less/category.less">
+    <script src="./lib/less/less.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="header">
+        <a class="fa fa-arrow-left" aria-hidden="true"></a>
+        <form>
+            <input type="search" placeholder="请输入搜索商品">
+        </form>
+        <a class="fa fa-search" aria-hidden="true"></a>
+    </div>
+
+    <div class="nav">
+        <div class="left">
+            <ul>
+                <li class="active">
+                    <a href="">运动馆</a>
+                </li>
+                <li>
+                    <a href="">女士馆</a>
+                </li>
+                <li>
+                    <a href="">男士馆</a>
+                </li>
+                <li>
+                    <a href="">帆布馆</a>
+                </li>
+                <li>
+                    <a href="">户外馆</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="mui-content">
+                <div class="mui-row">
+                    <div class="mui-col-xs-4">
+                        <img src="./images/brand1.png" alt="">
+                    </div>
+                    <div class="mui-col-xs-4">
+                        <img src="./images/brand2.png" alt="">
+                    </div>
+                    <div class="mui-col-xs-4">
+                        <img src="./images/brand3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <a href="./index1.html" class="fa fa-home">
+            <span>首页</span>
+        </a>
+        <a href="./category.html" class="fa fa-bars active">
+            <span>分类</span>
+        </a>
+        <a href="" class="fa fa-shopping-cart">
+            <span>购物车</span>
+        </a>
+        <a href="" class="fa fa-user">
+            <span>会员中心</span>
+        </a>
+    </footer>
+
+    <script src="./lib/mui/js/mui.min.js"></script>
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <script src="./lib/artTemplate/template.js"></script>
+    <script src="./js/category.js"></script>
+    <script type="text/html" id="categoryLeft">
+        {{each }}
+
+        {{/each}}
+    </script>
+</body>
+
+</html>
